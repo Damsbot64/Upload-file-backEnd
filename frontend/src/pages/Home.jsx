@@ -1,4 +1,5 @@
 import Counter from "../components/Counter";
+import Form from "./Form";
 import logo from "../assets/logo.svg";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <img src={logo} className="App-logo" alt="logo" />
       <p>Hello Vite + React !</p>
 
+      <Form />
       <Counter />
 
       <p>
